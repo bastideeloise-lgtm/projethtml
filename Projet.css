@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+nav
+{
+display: inline-block;
+width: 150px;
+border: 1px double black;
+border-width: thick;
+
+}
+section1, section2, section3, section4
+{
+  display: block; /* pour un centrage plus facile */
+  margin: 50px auto; /* centre horizontalement et ajoute un peu d’espace autour */
+  width: 60%; /* ajuste selon ton design — tu peux mettre 70% ou une valeur fixe en px */
+  padding: 20px;
+border: 5px double rgb(220, 89, 174);
+border-radius: 10px;
+box-shadow: 6px 6px 6px rgb(87, 33, 68) inset;
+text-align: center;
+
+
+}
+body
+{
+
+text-align:center;
+font-family: "Bebas Neue", sans-serif;
+font-weight: 400;
+font-style: normal;    
+margin: 0;
+background-color: black; /* Le fond de la page sera noir */
+color: white; /* Le texte de la page sera blanc */
+background-image: url("gif.gif");
+background-size: cover;
+
+}
+
+
+/* Barre sur le côté gauche */
+.sidebar{
+  position: fixed;    /* reste collée à l'écran */
+  left: 0;
+  top: 0;
+  width: 250px;       /* largeur de la barre */
+  height: 100vh;      /* prend toute la hauteur */
+  background: black; /* couleur de fond */
+}
